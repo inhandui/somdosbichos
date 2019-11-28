@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private MediaPlayer mplayer;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,5 +78,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (mplayer != null){
             mplayer.start();
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (mplayer != null){
+            mplayer.release();
+            mplayer = null;
+        }
+        super.onDestroy();
     }
 }
