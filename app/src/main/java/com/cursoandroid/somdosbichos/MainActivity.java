@@ -4,9 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ImageView cao;
     private ImageView gato;
@@ -28,6 +29,18 @@ public class MainActivity extends AppCompatActivity {
         macaco = findViewById(R.id.macaco);
         ovelha = findViewById(R.id.ovelha);
         vaca = findViewById(R.id.vaca);
+
+        cao.setOnClickListener(this);
+        gato.setOnClickListener(this);
+        leao.setOnClickListener(this);
+        macaco.setOnClickListener(this);
+        ovelha.setOnClickListener(this);
+        vaca.setOnClickListener(this);
+
+    }
+
+    @Override
+    public void onClick(View v) {
 
     }
 }
