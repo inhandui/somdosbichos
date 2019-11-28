@@ -19,73 +19,73 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/cao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/gato"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:srcCompat="@drawable/cao" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/gato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/cao"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:srcCompat="@drawable/gato" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/leao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintEnd_toStartOf="@+id/macaco"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/cao"
         app:srcCompat="@drawable/leao" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/macaco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/leao"
+        app:layout_constraintTop_toBottomOf="@+id/gato"
         app:srcCompat="@drawable/macaco" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/ovelha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/vaca"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/leao"
         app:srcCompat="@drawable/ovelha" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/vaca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintStart_toEndOf="@+id/ovelha"
+        app:layout_constraintTop_toBottomOf="@+id/macaco"
         app:srcCompat="@drawable/vaca" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/direitos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
